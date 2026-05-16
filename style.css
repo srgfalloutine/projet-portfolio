@@ -295,6 +295,42 @@ padding-inline: 10px;
     margin-top: 20px;
 }
 
+.pro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: px;
+    margin-top: 20px;
+}
+.tektal li{
+  list-style: none;
+  color: #00AEFF;
+  a{
+    text-decoration: none;
+    font-size: 20px;
+
+  }
+}
+.mesprojets{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+  padding-left: 15px ;
+  text-align: center;
+ 
+
+}
+a{
+  text-align: center;
+}
+
+
+li:hover{
+    color: #00AEFF;
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
 
 
 
@@ -303,7 +339,7 @@ padding-inline: 10px;
 
 
 
-#formations{
+#formation{
     text-align: center;
     margin-top: 20px;
 
@@ -384,4 +420,20 @@ padding-inline: 10px;
     .me{
         flex-direction: column;
     }
+      .mesprojets{
+        grid-template-columns: repeat(1,1fr);
+        h3{
+        font-size: 25px;
+        }
+        a{
+          text-decoration: underline;
+        }
+
+    }
+    .tektal li  a{
+          text-decoration: 1px dotted underline;
+        }
+        #formation {
+    font-size: 27px;
+        }
 }
