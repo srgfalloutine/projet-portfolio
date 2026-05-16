@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+font-family: Arial, sans-serif;
+box-sizing: border-box;
+color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(8, 8, 8);
+}
+h2,h3{
+    color: #00AEFF;
+    font-weight: bolder;
+    font-size: 40px;
+}
+h4,h5,h6{
+  color: #00AEFF;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.barrenav {
+  width: 100%;
+  height: 60px;
+
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 4px 4px 10px rgba(54, 53, 53, 0.5);
+}
+.barrenav a {
+  text-decoration: none;
+
+}
+  #menu-toggle {
+        display: none;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        height: 56px;
+        background: #000000;
+        color: white
+        ;
+      }
+      .nav a{
+        color: white;
+      }
+
+      .logo {
+        font-size: 28px;
+        font-weight: 500;
+        text-decoration: none;
+       
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 0 0 10px;
+  border-radius: 8px;
+  color:#00AEFF;
+      }
+
+      /* ── Liens desktop ── */
+      .nav-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+      }
+
+      .nav-links a {
+        font-size: 15px;
+        color: rgb(255, 251, 251);
+        text-decoration: none;
+      }
+
+      .nav-links a:hover {
+        border: 0.5px solid #00AEFF;
+border-radius: 5px;
+         padding: 0.25rem 0.75rem;
+         color: #00AEFF;
+         transition: 0.3s;
+         transform: scale(1.05);
+         background-color: transparent;
+         font-weight: 500;
+         border-radius: 20px;
+         box-shadow: 4px 4px 4px 08px #00AEFF;
+      }
+
+      /* ── Icône burger ── */
+      .burger-label {
+        display: none; /* caché en desktop */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 46px;
+        height: 36px;
+        cursor: pointer;
+    
+        
+      }
+
+      .burger-label span {
+        display: block;
+        height: 3px;
+        width: 70%;
+       
+        background: #ffffff;
+        border-radius: 2px;
+        transition:
+          transform 0.25s,
+          opacity 0.25s;
+        transform-origin: center;
+      }
+
+      /* ── Menu mobile (caché par défaut) ── */
+      .mobile-menu {
+        display: none;
+        flex-direction:column;
+        background: #00AEFF;
+        position: fixed;
+        top: 60px;
+      
+        right: 0;
+        z-index: 999;
+      }
+
+      #menu-toggle:checked ~ .mobile-menu {
+        display: flex;
+      }
+
+      .mobile-menu a {
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        padding: 0.85rem 1.5rem;
+        border-bottom: 1px solid #e5e5e5;
+        font-weight: 750;
+      }
+
+      .mobile-menu a:hover {
+        background: #f5f5f5;
+        color: #00AEFF;
+      }
+
+      /* ── Breakpoint mobile ── */
+      @media (max-width: 600px) {
+        .nav-links {
+          display: none;
+        }
+        .burger-label {
+          display: flex;
+        }
+      }
+      .rond{
+        width: 10px;
+        height: 10px;
+        background-color: #00AEFF;
+        border-radius: 50%;
+       margin-left: 3px;
+        margin-top: 13px;
+      }
+      #accueil{
+        margin-top: 100px;
+        text-align: center;
+ 
+      }
+.presentation h1{
+    font-size: 70px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.firstdesc{font-size: 30px;margin-bottom: 25px}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cv a{
+    text-decoration: none;
+    color: white;
+    background-color: #00AEFF;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    border-radius: 20px;
+   
+}
+.cv{ transition: 0.4s;}
+.cv:hover{
+    transform: scale(1.05);
+    box-shadow: 4px 4px 50px #00AEFF;
+}
+.rea a{
+      text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 15px 50px;
+   border: 2px solid #00AEFF;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.rea{ transition: 0.4s;}
+
+.rea:hover{
+    transform: scale(1.05);
+}
+.rx{display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-top: 25px;
+}
+.rx a{
+    color: white;
+    font-size: 35px;
+    transition: 0.3s;
+}
+.rx a:hover{
+    transform: scale(1.1);
+}
+#yok{
+    font-size: 40px;
+}
+#apropos{
+    text-align: center;
+
+}
+hr{
+    width: 80px;
+    height: 3px;
+    background-color: #00AEFF;
+    border: none;
+    margin: 20px auto;
+}
+.maphoto{
+    height: 390px;
+    width: 250px;
+    border-radius: 70px;
+
+}
+
+.me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 50px;
+    gap: 20px;
+}
+.descrip{
+    width: 50%;
+}
+.descrip p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(200, 200, 200);
+}
+#competences{
+    text-align: center;
+    margin-top: 20px;
+}
+.logocomp{
+    height: 200px;
+    width: 200px;
+}
+.mescompet{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 15px;
+padding-inline: 10px;
+
+
+
+    /* display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    padding-inline: 20px; */
+}
+
+#projets{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+/* Téléohone */
+@media (max-width: 676px) {
+  
+    .firstdesc{
+        font-size: 22px;
+       padding-inline: 10px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 55px;
+    }
+    .cv a{
+       padding: 20px 65px;
+      
+    }
+    .cv{
+         margin-bottom: 20px;
+    }
+    .rea a{
+        padding: 20px 45px;
+    }
+   .me{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    .maphoto{
+        width: 100%;
+        height: auto;
+        border-radius: 90px;
+    }
+    .mescompet{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .descrip{
+        width: 100%;
+    }
+    .me{
+        flex-direction: column;
+    }
+}
