@@ -306,7 +306,7 @@ padding-inline: 10px;
   list-style: none;
   color: #00AEFF;
   a{
-    text-decoration: none;
+    text-decoration: 1px dotted underline;
     font-size: 20px;
 
   }
