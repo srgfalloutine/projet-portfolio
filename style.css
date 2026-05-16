@@ -288,17 +288,34 @@ grid-template-columns: repeat(4,1fr);
 gap: 15px;
 padding-inline: 10px;
 
-
-
-    /* display: flex;
-    justify-content:space-around;
-    align-items: center;
-    gap: 30px;
-    margin-top: 30px;
-    padding-inline: 20px; */
 }
 
 #projets{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+#formations{
+    text-align: center;
+    margin-top: 20px;
+
+ 
+}
+
+
+
+
+
+
+#contact{
     text-align: center;
     margin-top: 20px;
 }
@@ -321,18 +338,15 @@ padding-inline: 10px;
 
 
 
-
-
-
-
-
-
-
-
 /* RESPONSIVE */
 /* Téléohone */
 @media (max-width: 676px) {
-  
+    .descrip p{
+         font-size: 20px;
+    }
+ .mescompet p{
+    font-size: 18px;
+ }
     .firstdesc{
         font-size: 22px;
        padding-inline: 10px;
