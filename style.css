@@ -495,7 +495,7 @@ button:disabled {
   border: 2px solid #00AEFF;
   border-radius: 15px;
   background-color: rgba(0, 174, 255, 0.08);
-  width: 100%;
+  width:60%;
 }
 
 [data-fs-error] {
