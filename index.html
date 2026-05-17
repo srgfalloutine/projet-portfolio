@@ -301,7 +301,7 @@
         N'hésitez pas à me contacter.
       </p>
       <div class="jokko">
-        <form action="https://formspree.io/f/xzdwpvpo" method="POST">
+        <!-- <form action="https://formspree.io/f/xzdwpvpo" method="POST">
           <label for="name">NOM COMPLET</label>
           <input type="text" placeholder="Votre Nom" required />
           <label for="email">EMAIL</label>
@@ -326,10 +326,70 @@
               <i id="yok" class="fa-brands fa-github" style="color: black;"></i
             ></a>
           </div>
+        </form> -->
+     <div data-fs-success class="fs-success-msg">
+          MERCI POUR VOTRE MESSAGE ! VOUS SEREZ CONTACTER DANS UN BREVE DELAI.
+        </div>
+           <form id="contact-form" action="https://formspree.io/f/xzdwpvpo" method="POST">
+ 
+          <label for="name">NOM COMPLET</label>
+          <input type="text" id="name" name="name" placeholder="Votre Nom" required data-fs-field />
+          <span data-fs-error="name" class="fs-field-error"></span>
+ 
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" name="email" placeholder="Votre email" required data-fs-field />
+          <span data-fs-error="email" class="fs-field-error"></span>
+ 
+          <label for="message">MESSAGE</label>
+          <textarea id="message" name="message" placeholder="Votre message" required data-fs-field></textarea>
+          <span data-fs-error="message" class="fs-field-error"></span>
+ 
+          <button type="submit" data-fs-submit-btn>
+            Envoyer <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          
+                 <div class="mescoord">
+                   <p>
+                     <i class="fa-solid fa-location-arrow" style="color: #00aeff"></i>
+                     Dakar, Sénégal
+                   </p>
+                   <a href="mailto:srgfallou.tine@gmail.com">
+                     <i class="fa-solid fa-envelope" style="color: #00aeff"></i>
+                     Srgfallou.tine@gmail.com
+                   </a>
+                   <a href="tel:+221778229133">
+                     <i class="fa-solid fa-phone" style="color: #00aeff"></i> +221 77 822 91 33
+                   </a>
+                   <a href="https://github.com/srgfalloutine" target="_blank">
+                     <i class="yok fa-brands fa-github"></i>
+                   </a>
+                 </div>
+ 
         </form>
-
+        
       </div>
     </section>
+    
+    <!-- Scripts Formspree Ajax -->
+    <script>
+      window.formspree = window.formspree || function () {
+        (formspree.q = formspree.q || []).push(arguments);
+      };
+      formspree('initForm', { formElement: '#contact-form', formId: 'xzdwpvpo' });
+    </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+ 
+    <!-- Fermeture automatique du menu burger au clic -->
+    <script>
+      document.querySelectorAll('.mobile-menu a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          document.getElementById('menu-toggle').checked = false;
+        });
+      });
+    </script>
+
+
+</div>
 
   </body>
 </html>
