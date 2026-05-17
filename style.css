@@ -313,10 +313,12 @@ padding-inline: 10px;
 }
 .mesprojets{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap: 15px;
-  padding-left: 15px ;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+align-items: center;
+justify-content: center;
   text-align: center;
+  padding-left: 35px;
  
 
 }
@@ -324,6 +326,9 @@ a{
   text-align: center;
 }
 
+.adob{
+          font-size: 35px;
+        }
 
 li:hover{
     color: #00AEFF;
@@ -360,7 +365,28 @@ li:hover{
   padding: 30px 45px;
   color: black;
   transition: 0.4s;
+  a{
+    color: black;
+  }
  
+}
+.cardparcspe{
+  background-color: white;
+  width: 98%;
+  height: 200px;
+ border-radius: 15px;
+  /* padding: 30px 45px; */
+  color: black;
+  transition: 0.4s;
+
+  a{
+    color: black;
+  }
+ 
+}
+.cardparcspe:hover{
+    transform: scale(1.05);
+   
 }
 .cardparc:hover{
     transform: scale(1.05);
@@ -598,22 +624,40 @@ textarea[aria-invalid="true"] {
     .tektal li  a{
           text-decoration: 1px dotted underline;
         }
+        
         #formation {
     font-size: 27px;
         }
         .parcours{
             flex-direction: column;
         }
-         .cardparc1{
-            width: 100%;
+       
+.cardparc1{
+            width: 90%;
             height: auto;
-            border-radius: 0px;
+            border-radius: 10px;
+            background: none;
+            border: 2px solid #00AEFF;
+             padding: 20px 30px;
+            
         }
+        .cardparc1  p,strong{
+              color: white;
+             }
+
+
         .cardparc{
-            width: 100%;
+            width: 90%;
             height: auto;
-            border-radius: 0px;
+            border-radius: 10px;
+            background: none;
+            border: 2px solid #00AEFF;
+             padding: 20px 30px;
+            
         }
+        .cardparc  p,strong{
+              color: white;
+             }
           .jokko{
               flex-direction: column;
               width: 100%;
