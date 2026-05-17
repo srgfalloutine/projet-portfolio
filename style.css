@@ -368,7 +368,13 @@ li:hover{
   a{
     color: black;
   }
- 
+  p{
+    color: black;
+  }
+  strong{
+    color: black;
+  } 
+ font-size: 17.5px;
 }
 .cardparcspe{
   background-color: white;
@@ -400,6 +406,13 @@ li:hover{
   padding: 60px 5px;
   color: black;
   transition: 0.4s;
+  font-size: 20px;
+  p{
+    color: black;
+  }
+  strong{
+    color: black;
+  } 
 }
 .cardparc1:hover{
     transform: scale(1.05);
@@ -639,12 +652,14 @@ textarea[aria-invalid="true"] {
             background: none;
             border: 2px solid #00AEFF;
              padding: 20px 30px;
-            
+            strong{
+              color: white;
+             }
         }
         .cardparc1  p,strong{
               color: white;
              }
-
+          
 
         .cardparc{
             width: 90%;
@@ -653,11 +668,14 @@ textarea[aria-invalid="true"] {
             background: none;
             border: 2px solid #00AEFF;
              padding: 20px 30px;
-            
-        }
-        .cardparc  p,strong{
+            strong{
               color: white;
-             }
+            }
+            p{
+              color: white;
+             } 
+        }}
+      
           .jokko{
               flex-direction: column;
               width: 100%;
@@ -668,6 +686,7 @@ textarea[aria-invalid="true"] {
           }
           .amd{
             font-size: 20px;
+            text-align: center;
           }
            form{
                width: 100%;
