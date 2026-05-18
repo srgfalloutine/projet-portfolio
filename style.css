@@ -626,6 +626,10 @@ textarea[aria-invalid="true"] {
     }
       .mesprojets{
         grid-template-columns: repeat(1,1fr);
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 20px;
         h3{
         font-size: 25px;
         }
