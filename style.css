@@ -256,9 +256,9 @@ hr{
     margin: 20px auto;
 }
 .maphoto{
-    height: 390px;
-    width: 250px;
-    border-radius: 70px;
+    height: 450px;
+    width: 260px;
+    border-radius: 50px;
 
 }
 
@@ -606,7 +606,11 @@ textarea[aria-invalid="true"] {
     .cv{
          margin-bottom: 20px;
     }
+    .rea{
+       margin-top: 15px;
+    }
     .rea a{
+     
         padding: 20px 45px;
     }
    .me{
