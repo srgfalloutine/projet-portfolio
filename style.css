@@ -624,13 +624,16 @@ textarea[aria-invalid="true"] {
     .maphoto{
         width: 100%;
         height: auto;
-        border-radius: 90px;
+        border-radius: 65px;
     }
     .mescompet{
         grid-template-columns: repeat(1,1fr);
     }
     .descrip{
         width: 100%;
+    p{
+      
+    }
     }
     .me{
         flex-direction: column;
@@ -744,9 +747,10 @@ textarea[aria-invalid="true"] {
     width: 100%;
   }
   .maphoto {
-    /* width: 400px; */
-    height: 700px;
-    width: 55%;
+   
+    height: 500px;
+    width: 50%;
+    border-radius: 20px;
   }
   .descrip {
     width: 95%;
@@ -767,8 +771,13 @@ textarea[aria-invalid="true"] {
   .mesprojets {
     grid-template-columns: repeat(2, 1fr);
     padding-inline: 20px;
+    h3{
+      font-size: 27px;
+    }
   }
-
+.adob{
+  font-size: 27px;
+}
 
   .parcours {
     flex-wrap: wrap;
@@ -776,15 +785,17 @@ textarea[aria-invalid="true"] {
   }
   .cardparc,
   .cardparc1 {
-    width: 320px;
+    width: 550px;
   }
-
+.amd{
+  width: 98%;
+}
   .jokko {
     flex-direction: column;
-    width: 90%;
+    width: 95%;
   }
   form {
-    width: 90%;
+    width: 100%;
   }
   .mescoord {
     width: 80%;
