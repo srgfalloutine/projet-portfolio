@@ -365,7 +365,8 @@ li:hover{
   width: 400px;
   height: 200px;
  border-radius: 15px;
-  padding: 30px 45px;
+  padding: 10px 45px;
+ 
   color: black;
   transition: 0.4s;
   a{
@@ -416,6 +417,9 @@ li:hover{
   strong{
     color: black;
   } 
+  h3{
+font-size: 35px;
+  }
 }
 .cardparc1:hover{
     transform: scale(1.05);
@@ -737,13 +741,15 @@ textarea[aria-invalid="true"] {
   .me {
     flex-direction: column;
     padding-inline: 30px;
+    width: 100%;
   }
   .maphoto {
-    width: 220px;
-    height: 320px;
+    /* width: 400px; */
+    height: 700px;
+    width: 55%;
   }
   .descrip {
-    width: 80%;
+    width: 95%;
     text-align: center;
   }
 
