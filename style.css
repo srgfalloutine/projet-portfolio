@@ -627,14 +627,26 @@ textarea[aria-invalid="true"] {
         border-radius: 65px;
     }
     .mescompet{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
+        p{
+          display:none;
+        }
+        h3{
+          display:none;
+        }
+        .softskills{
+          display:none;
+        }
     }
+     .logocomp {
+    height: 140px;
+    width: 140px;
+  }
     .descrip{
         width: 100%;
-    p{
-      
+
     }
-    }
+    
     .me{
         flex-direction: column;
     }
@@ -748,9 +760,9 @@ textarea[aria-invalid="true"] {
   }
   .maphoto {
    
-    height: 500px;
-    width: 50%;
-    border-radius: 20px;
+    height: 600px;
+    width: 45%;
+    border-radius: 50px;
   }
   .descrip {
     width: 95%;
