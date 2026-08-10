@@ -380,6 +380,7 @@ li:hover{
   } 
  font-size: 17.5px;
 }
+
 .cardparcspe{
   background-color: white;
   width: 98%;
@@ -411,12 +412,22 @@ li:hover{
   color: black;
   transition: 0.4s;
   font-size: 20px;
-  p{
+  border-radius: 10px;
+            background: none;
+            border: 2px solid #00AEFF;
+             padding: 20px 30px;
+            strong{
+              color: white;
+            }
+            p{
+              color: white;
+             } 
+  /* p{
     color: black;
-  }
-  strong{
+  } */
+  /* strong{
     color: black;
-  } 
+  }  */
   h3{
 font-size: 35px;
   }
@@ -439,7 +450,7 @@ font-size: 35px;
   align-items: center;
   gap: 20px;
   padding-inline: 20px;
-  width: 100%;
+  width: 80%;
   margin: 20px auto;
 }
 
@@ -450,14 +461,14 @@ form {
   align-items: center;
   gap: 15px;
   margin-top: 20px;
-  width: 90%;
+  width: 60%;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
   padding: 30px 20px;
 }
 
 .mescoord {
-  width: 60%;
+  /* width: 60%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -697,7 +708,7 @@ textarea[aria-invalid="true"] {
              }
           
 
-        .cardparc{
+        .cardparc1{
             width: 90%;
             height: auto;
             border-radius: 10px;
